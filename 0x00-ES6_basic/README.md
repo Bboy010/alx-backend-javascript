@@ -3,14 +3,18 @@
 ### ES6 Basics
 
 Prerequise
-`curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+```
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
-sudo apt install nodejs -y`
+sudo apt install nodejs -y
+```
 
-`$ nodejs -v
+```
+$ nodejs -v
 v12.11.1
 $ npm -v
-6.11.3`
+6.11.3
+```
 
 ## Task
  [0 Const or let](0-constants.js)
