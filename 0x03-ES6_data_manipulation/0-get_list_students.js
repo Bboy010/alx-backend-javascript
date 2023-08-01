@@ -1,10 +1,9 @@
-// Define function
-
+// Define the function
 export default function getListStudents() {
-  // Create empty array to keep students
+  // Create an array to store students
   const students = [];
 
-  // Add objects students to array
+  // Add student objects to the array
   students.push({
     id: 1,
     firstName: "Guillaume",
@@ -17,12 +16,12 @@ export default function getListStudents() {
     location: "Columbia"
   });
 
-   students.push({
+  students.push({
     id: 5,
     firstName: "Serena",
     location: "San Francisco"
   });
 
-  // return array of students
+  // Return the array of students
   return students;
 }
