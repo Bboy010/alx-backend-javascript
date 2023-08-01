@@ -1,7 +1,7 @@
 ### Tasks 0 : Basic list of objects
 [get list students](0-get_list_students.js)
 
-* ** Create a function named getListStudents that returns an array of objects.
+* Create a function named getListStudents that returns an array of objects.
 
 Each object should have three attributes: id (Number), firstName (String), and location (String).
 
@@ -15,7 +15,7 @@ The array contains the following students in order:
 [get list students ids](1-get_list_student_ids.js)
 
 
-* ** Create a function `getListStudentIds` that returns an array of ids from a list of object.
+* Create a function `getListStudentIds` that returns an array of ids from a list of object.
 
 This function is taking one argument which is an array of objects - and this array is the same format as `getListStudents` from the previous task.
 
@@ -45,7 +45,7 @@ You must use the `reduce` function on the array.
 ### Tasks 5 : Typed Arrays
 [typed arrays](5-typed_arrays.js)
 
-* ** Create a function named `createInt8TypedArray` that returns a new `ArrayBuffer` with an `Int8` value at a specific position.
+* Create a function named `createInt8TypedArray` that returns a new `ArrayBuffer` with an `Int8` value at a specific position.
 
 It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
 
@@ -54,7 +54,7 @@ If adding the value is not possible the error `Position outside range` should be
 
 ### Tasks 6: Set data structure
 [set](6-set.js)
-* ** Create a function named `setFromArray` that returns a `Set` from an array.
+* Create a function named `setFromArray` that returns a `Set` from an array.
 
 It accepts an argument (Array, of any kind of element).
 
@@ -67,7 +67,7 @@ It accepts two arguments: a `set` (Set) and an `array` (Array).
 ### Tasks 8: Clean set
 [clean set(8-clean_set.js)
 
-* ** Create a function named `cleanSet` that returns a string of all the set values that start with a specific string (`startString`).
+* Create a function named `cleanSet` that returns a string of all the set values that start with a specific string (`startString`).
 
 It accepts two arguments: a `set` (Set) and a `startString` (String).
 
@@ -77,7 +77,7 @@ When a value starts with `startString` you only append the rest of the string. T
 ### Tasks 10: More map data structure
 [update uniq items](10-update_uniq_items.js)
 
-* ** Create a function named `updateUniqueItems` that returns an updated map for all items with initial quantity at 1.
+* Create a function named `updateUniqueItems` that returns an updated map for all items with initial quantity at 1.
 
 It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
 
@@ -105,7 +105,7 @@ You must use `filter` and `map` combined.
 
 ### Tasks 9: Map data structure
 [groceries](9-groceries_list.js)
-* ** Create a function named `groceriesList` that returns a map of groceries with the following items (name, quantity):
+* Create a function named `groceriesList` that returns a map of groceries with the following items (name, quantity):
 
 ```
 Apples, 10
@@ -119,7 +119,7 @@ Banana, 5
 ### Tasks 11: Weak link data structure
 [weak](100-weak.js)
 
-* ** Export a `const` instance of `WeakMap` and name it `weakMap`.
+* Export a `const` instance of `WeakMap` and name it `weakMap`.
 
 Export a new function named `queryAPI`. It should accept an endpoint argument like so:
 ```
