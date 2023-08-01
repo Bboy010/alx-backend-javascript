@@ -9,4 +9,3 @@ export default function getStudentsByLocation(studentsList, city) {
   // Return array of student by city specified
   return studentsInCity;
 }
-
