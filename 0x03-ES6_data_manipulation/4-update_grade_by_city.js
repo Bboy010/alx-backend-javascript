@@ -8,9 +8,9 @@ export default function updateStudentGradeByCity(studentsList, city, newGrades) 
 
   // Use map to update students by city 
   const updatedStudents = studentsInCity.map((student) => {
-    const gradeObject = newGrades.find((grade) => grade.studentId === student.id);
-    const updatedGrade = gradeObject ? gradeObject.grade : "N/A";
-    return { ...student, grade: updatedGrade };
+  const gradeObject = newGrades.find((grade) => grade.studentId === student.id);
+  const updatedGrade = gradeObject ? gradeObject.grade : "N/A";
+  return { ...student, grade: updatedGrade };
   });
 
   // Return array updated
