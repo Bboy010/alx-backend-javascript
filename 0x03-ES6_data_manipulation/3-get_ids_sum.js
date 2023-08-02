@@ -1,5 +1,3 @@
-// Definition of function getStudentIdsSum
-export default function getStudentIdsSum(studentsList) {
-  // Use function reduce to get the sum of students ids
+export default function getListStudentIds(studentsList) {
 return studentsList.reduce((sum, student) => sum + student.id, 0);
 }
