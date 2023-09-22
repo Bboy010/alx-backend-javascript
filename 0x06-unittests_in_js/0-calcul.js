@@ -1,3 +1,5 @@
+// Calculate Number
+
 function calculateNumber(a, b) {
     // Arrondir les valeurs a et b
     const roundedA = Math.round(a);
