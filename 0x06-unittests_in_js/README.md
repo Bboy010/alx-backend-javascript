@@ -1,5 +1,5 @@
 # 0x06 Unittests in JS
-![picture](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/90f79a666e174e6c4ffc.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230921T110129Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=581bc5889cef0b0b3dace2ab623b99c68f8d79f91a1e109eea72b3c56adc13f7)
+![picture](./pic.jpeg)
 
 ---
 ### Resources
