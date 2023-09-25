@@ -1,27 +1,23 @@
-// Import necessary modules
+// 8-api/api.test.js
+
 const request = require('request');
-const chai = require('chai');
-const expect = chai.expect;
+const { expect } = require('chai');
+const app = require('./api');
 
-// Define the base URL for your API
-const baseUrl = 'http://localhost:7865';
+const BASE_URL = 'http://localhost:7865';
 
-// Test suite for the index page
 describe('Index Page', () => {
-  // Test for the correct status code
-  it('should return status code 200', (done) => {
-    request.get(baseUrl, (error, response, body) => {
+  it('should return a 200 status code', (done) => {
+    request.get(BASE_URL, (error, response) => {
       expect(response.statusCode).to.equal(200);
       done();
     });
   });
 
-  // Test for the correct result
-  it('should return "Welcome to the payment system"', (done) => {
-    request.get(baseUrl, (error, response, body) => {
+  it('should return the message "Welcome to the payment system"', (done) => {
+    request.get(BASE_URL, (error, response, body) => {
       expect(body).to.equal('Welcome to the payment system');
       done();
     });
   });
-
 });
