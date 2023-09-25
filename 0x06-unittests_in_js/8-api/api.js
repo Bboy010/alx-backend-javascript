@@ -1,16 +1,16 @@
-// 8-api/api.js
-
+// Import required dependencies
 const express = require('express');
+
+// Create an instance of Express
 const app = express();
 
-const PORT = 7865;
-
-app.listen(PORT, () => {
-  console.log(`API available on localhost port ${PORT}`);
-});
-
+// Define a route for GET /
 app.get('/', (req, res) => {
   res.send('Welcome to the payment system');
 });
 
-module.exports = app;
+// Listen on port 7865
+const port = 7865;
+app.listen(port, () => {
+  console.log(`API available on localhost port ${port}`);
+});
