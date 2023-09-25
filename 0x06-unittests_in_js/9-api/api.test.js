@@ -2,7 +2,6 @@
 
 const request = require('request');
 const { expect } = require('chai');
-const app = require('./api');
 
 const BASE_URL = 'http://localhost:7865';
 
